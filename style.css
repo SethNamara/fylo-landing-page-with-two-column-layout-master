@@ -1,0 +1,37 @@
+:root {
+    --clr-bg-primary: hsl(240, 75%, 98%);
+    --clr-bg-secondary: hsl(0, 0%, 75%);
+
+    --clr-link: hsl(170, 45%, 43%);
+    --clr-buttons: hsl(224, 93%, 58%);
+
+    --clr-contact: hsl(238, 22%, 44%);
+    --clr-footer: hsl(243, 87%, 12%);
+
+    --ft-body: 'Open Sans', sans-serif;
+    --ft-headings: 'Raleway', sans-serif;
+
+    --fw-body : 400;
+    --fw-headings: 700;
+
+    --fs-100: 1rem;
+    --fs-200: 1.2rem;
+    --fs-300: 1.5rem;
+    --fs-400: 1.75rem;
+    --fs-500: 2rem;
+    --fs-600: 5rem;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    /* font: inherit; */
+}
+
+img,
+svg,
+picture {
+    max-width: 100%;
+    display: block;
+}
